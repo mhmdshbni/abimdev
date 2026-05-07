@@ -28,14 +28,14 @@ export const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-2 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-2 mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white w-full max-w-[600px]"
         >
           <div>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               Hello Everyone
             </span>
           </div>
-          <div className="whitespace-nowrap">I'm Muhamad Sahbani</div>
+          <div className="break-words leading-tight">I'm Muhamad Sahbani</div>
         </motion.div>
 
         <motion.p
